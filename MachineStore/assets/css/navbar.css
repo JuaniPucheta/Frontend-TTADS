@@ -4,6 +4,7 @@
     z-index: 997;
     height: 86px;
     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    justify-content: space-between;
 }
 #header.fixed-top {
 height: 70px;
@@ -16,6 +17,7 @@ height: 70px;
     font-weight: 600;
     letter-spacing: 0.8px;
     font-family: "Poppins", sans-serif;
+    justify-content: space-between;
 
 }
 #header .logo a {
@@ -34,6 +36,7 @@ margin-top: 70px;
 
 .navbar {
 padding: 0;
+
 }
 .navbar ul {
 margin: 0;
