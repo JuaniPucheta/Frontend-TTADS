@@ -148,3 +148,8 @@ p + p {
   text-shadow:2px 2px 3px #333;
 }
 
+.login-form{
+  top: 3em;
+  right: 3em;
+  position: absolute;
+}

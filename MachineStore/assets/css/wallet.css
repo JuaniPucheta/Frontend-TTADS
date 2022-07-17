@@ -6,42 +6,23 @@
   }
   
   html, body {
-    background: rgb(42, 42, 42);
+    background-image: url("https://beachsideteen.com/wp-content/uploads/2019/09/Video-Games-Addiction-Beachside-1024x657.jpg");
     overflow: hidden;
   }
-  
-
-
-  .top-h1{
-      background-color: #b1dd12;
-      text-align: center;
-      font-family: "Raleway";
-      box-shadow: 0 9px 7px #b1dd12;
-  }
-
-  .volver{
-      font-family: "Raleway";
-      text-decoration: none;
-      color: #000;
-  }
-
-.volver:hover{
-    color: #FFF;
-}
 
   .app {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 80vh;
   }
   .app_inner {
     background: #FFF;
     width: 750px;
     height: 550px;
     display: flex;
-    border-radius: 9px;
-    box-shadow: 1px 5px 15px #b1dd12;
+    border-radius: 12px;
+    box-shadow: 2px 10px 25px #eef1e3;
   }
   .app_inner aside {
     background: #292C3A;
@@ -336,3 +317,47 @@
     border-radius: 50px;
     height: 50px;
   }
+
+  #navbar {
+    top: 0.3em;
+    right: 0.3em;
+    position: absolute;
+}
+
+#header-wallet {
+  background: rgb(42, 42, 42);
+  transition: all 0.5s;
+  z-index: 997;
+  height: 50px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+#header-wallet.fixed-top {
+  height: 70px;
+}
+#header-wallet .logo {
+  font-size: 30px;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-weight: 600;
+  letter-spacing: 0.8px;
+  font-family: "Poppins", sans-serif;
+}
+#header-wallet .logo a {
+  color: #b1dd12;
+}
+#header-wallet .logo a span {
+  color: #0872fd;
+}
+#header-wallet .logo img {
+  max-height: 40px;
+}
+
+.scrolled-offset {
+  margin-top: 70px;
+}
+
+#login-register-button {
+  background-color: #FFB320;
+  color: #131313;
+}

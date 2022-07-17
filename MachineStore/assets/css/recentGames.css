@@ -1,0 +1,188 @@
+
+.flex {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    justify-content: space-between;
+}
+
+.badge {
+    padding: 9px 20px;
+    color: #eee;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+    font-size: 0.75em;
+}
+
+.badge.new {
+    background-color: #FF205F;
+}
+
+.badge.strategy {
+    background-color: #4EAE60;
+}
+
+.badge.racing {
+    background-color: #694EAE;
+}
+
+.badge.rpg,
+.badge.adventure {
+    background-color: #40ABF5;
+}
+
+/* start: recent games styles */
+#recent-games {
+    background: url('https://onclickwebdesign.com/wp-content/uploads/recent_games_bg.png') top center no-repeat;
+    background-color: #eef2f6;
+    border-top: 1px solid #d6dee7;
+    border-bottom: 1px solid #d6dee7;
+    padding: 70px 0 120px;
+}
+
+#recent-games h1 {
+    text-align: center;
+}
+
+#recent-games .box {
+    position: relative;
+    flex-basis: 31%;
+    background-color: #fff;
+}
+
+#recent-games .box .badge {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 2;
+}
+
+#recent-games .box img {
+    width: 100%;
+}
+
+#recent-games .box .box-lower-section {
+    padding: 20px;
+}
+
+#recent-games .box .box-lower-section p {
+    color: #999;
+}
+
+#recent-games .box .box-lower-section a {
+    color: #999;
+    font-size: 0.8em;
+}
+
+.container-our-team {
+    font-family: tahoma;
+    background-image: url(https://picsum.photos/g/3000/2000);
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+}
+
+.our-team {
+    padding: 30px 0 40px;
+    margin-bottom: 30px;
+    background-color: #e2e1db;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .our-team .picture {
+    display: inline-block;
+    height: 130px;
+    width: 130px;
+    margin-bottom: 50px;
+    z-index: 1;
+    position: relative;
+  }
+  
+  .our-team .picture::before {
+    content: "";
+    width: 100%;
+    height: 0;
+    border-radius: 50%;
+    background-color: #1369ce;
+    position: absolute;
+    bottom: 135%;
+    right: 0;
+    left: 0;
+    opacity: 0.9;
+    transform: scale(3);
+    transition: all 0.3s linear 0s;
+  }
+  
+  .our-team:hover .picture::before {
+    height: 100%;
+  }
+  
+  .our-team .picture::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #1369ce;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  
+  .our-team .picture img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    transform: scale(1);
+    transition: all 0.9s ease 0s;
+  }
+  
+  .our-team:hover .picture img {
+    box-shadow: 0 0 0 14px #f7f5ec;
+    transform: scale(0.7);
+  }
+  
+  .our-team .title {
+    display: block;
+    font-size: 15px;
+    color: #4e5052;
+    text-transform: capitalize;
+  }
+  
+  .our-team .social {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: #1369ce;
+    position: absolute;
+    bottom: -100px;
+    left: 0;
+    transition: all 0.5s ease 0s;
+  }
+  
+  .our-team:hover .social {
+    bottom: 0;
+  }
+  
+  .our-team .social li {
+    display: inline-block;
+  }
+  
+  .our-team .social li a {
+    display: block;
+    padding: 10px;
+    font-size: 17px;
+    color: white;
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+  }
+  
+  .our-team .social li a:hover {
+    color: #1369ce;
+    background-color: #f7f5ec;
+  }

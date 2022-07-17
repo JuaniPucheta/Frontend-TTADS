@@ -86,7 +86,7 @@ h1, h2, p, a, span{
   color: #fff;
 }
   .scnd-font-color {
-    color: #9099b7;
+    color: #ffffff;
   }
 
 .input-container {
@@ -148,7 +148,7 @@ h1, h2, p, a, span{
 
 .titular {
   display: block;
-  line-height: 60px;
+  line-height: 40px;
   margin: 0;
   text-align: center;
   border-top-left-radius: 5px;
@@ -233,7 +233,7 @@ h1, h2, p, a, span{
   font-family: 'Ubuntu', sans-serif;
   width: 950px;
   height: 1725px;
-  margin: 6em auto;
+  margin: 2em auto;
 } 
   /*********************************************** HEADER ***********************************************/
   header {
@@ -310,17 +310,17 @@ h1, h2, p, a, span{
   }
     .block {
       margin-bottom: 25px;
-      background: #116fc7;
-      border-radius: 5px;
+      background: #222020;
+      border-radius: 10px;
       box-shadow: 6px 6px 5px rgb(2, 34, 104);
     }
     /******************************************** LEFT CONTAINER *****************************************/
     
       .menu-box {
-        height: 360px;
+        height: 290px;
       }
         .menu-box .titular {
-          background: #11a8ab;
+          background: #8fb30d;
         }
         .menu-box-menu .icon {
           display: inline-block;
@@ -348,7 +348,7 @@ h1, h2, p, a, span{
         .menu-box-tab {
           line-height: 60px;
           display: block;
-          border-bottom: 1px solid #1f253d;
+          border-bottom: 1px solid #858ca8;
           -webkit-transition: background .2s;
           transition: background .2s;
         }
@@ -451,9 +451,7 @@ h1, h2, p, a, span{
               -webkit-transform: rotate(32deg);
               transform: rotate(32deg);
             }
-        /******************************************
-        END DONUT-CHART by @kseso https://codepen.io/Kseso/pen/phiyL
-        ******************************************/
+
         .os-percentages {
           padding-top: 36px;
         }
@@ -492,9 +490,6 @@ h1, h2, p, a, span{
           height: 200px;
           background: #11a8ab;
         }
-        /******************************************
-        LINE-CHART by @kseso https://codepen.io/Kseso/pen/phiyL
-        ******************************************/
         .grafico {
           padding: 2rem 1rem 1rem;
           width: 100%;
@@ -575,9 +570,6 @@ h1, h2, p, a, span{
           float: left;
           text-align: center;
         }
-        /******************************************
-        END LINE-CHART by @kseso https://codepen.io/Kseso/pen/phiyL
-        ******************************************/
         .time-lenght {
           padding-top: 22px;
           padding-left: 38px;
@@ -656,57 +648,6 @@ h1, h2, p, a, span{
             }
             .resize {
               margin-left: 12px;
-            }
-      .left-container .social {
-        height: 110px;
-      }
-        .left-container .social li {
-          width: 75px;
-          height: 110px;                    
-        }
-          .left-container .social li .icon {
-            text-align: center;
-            font-size: 20px;
-            margin: 0;
-            line-height: 75px;
-          }
-          .left-container .social li .number {
-            text-align: center;
-            margin: 0;
-            line-height: 34px;
-          }
-          .left-container .social .facebook {
-            background: #3468af;
-            border-top-left-radius: 5px;
-            border-bottom-left-radius: 5px;
-          }
-            .left-container .social .facebook .number {
-              background: #1a4e95;
-              border-bottom-left-radius: 5px;
-            }
-          .left-container .social .twitter {
-            background: #4fc4f6;            
-          }
-            .left-container .social .twitter .icon {
-              font-size: 18px;
-            }
-            .left-container .social .twitter .number {
-              background: #35aadc;
-            }
-          .left-container .social .googleplus {
-            background: #e64c65;            
-          }
-            .left-container .social .googleplus .number{
-              background: #cc324b;
-            }
-          .left-container .social .mailbox {
-            background: #50597b;            
-            border-top-right-radius: 5px;
-            border-bottom-right-radius: 5px;
-          }
-            .left-container .social .mailbox .number {
-              background: #363f61;
-              border-bottom-right-radius: 5px;
             }
     /************************************************** MIDDLE CONTAINER **********************************/
     .middle-container {
@@ -841,7 +782,7 @@ h1, h2, p, a, span{
         height: 375px;
       }
         .tweets .titular {
-          background: #35aadc;
+          background: #8fb30d;
         }
           .tweets .titular .icon {
             font-size: 18px;
@@ -929,145 +870,4 @@ h1, h2, p, a, span{
           .middle-container .social .icon.googleplus {
             background: #cc324b;            
           }
-    /********************************************* RIGHT CONTAINER ****************************************/
     
-      .join-newsletter {
-        height: 230px;
-      }
-        .join-newsletter .titular {
-          padding-top: 10px;
-        }
-        .subscribe.button {
-          background: #11a8ab;
-          margin-top: 10px;
-        }
-          .subscribe.button:hover {
-            background: #0F9295;
-          }
-      .account {
-        height: 390px;
-      }
-        .account .titular {
-          padding: 10px 0;
-        }
-        .sign-in.button {
-          background: #e64c65;
-          margin: 10px auto;
-        }
-          .sign-in.button:hover {
-            background: #cc324b;
-          }
-        .account p { 
-          text-align: center;
-        }
-        .fb-sign-in {
-          margin-top: 28px;
-          display: block;
-          line-height: 50px;
-          background: #3468af;
-          border-bottom-left-radius: 5px;
-          border-bottom-right-radius: 5px;
-          -webkit-transition: background .3s;
-          transition: background .3s;
-        }
-          .fb-sign-in:hover {
-            background: #1a4e95;
-            text-decoration: none;
-          }
-        .fb-sign-in .icon { 
-          line-height: 20px;
-          font-size: 12px;
-          padding-right: 3px;
-        }
-          .fb-border {
-            display: inline-block;
-            width: 23px;
-            line-height: 20px;
-            border: 2px solid #fff;
-            border-radius: 100%;
-            margin-right: 10px;
-          }
-      .loading {
-        height: 200px;
-        padding-top: 35px;
-      }
-        .loading p {
-          display: inline-block;
-          padding-left: 30px;
-          margin: 5px 0 20px;
-        }
-          .loading .icon {
-            padding-right: 15px;
-          }
-          .loading .percentage {
-            float: right;
-            padding: 6px 35px 0 0;
-          }
-        .loading .progress-bar {
-          width: 250px;
-          height: 20px;
-          background: #50597b;
-          border-radius: 5px;
-          margin: 0 auto;
-        }
-          .progress-bar.downloading {
-            background: -webkit-linear-gradient(left, #11a8ab 81%,#50597b 81%); /* Chrome10+,Safari5.1+ */
-            background: -ms-linear-gradient(left, #11a8ab 81%,#50597b 81%); /* IE10+ */
-            background: linear-gradient(to right, #11a8ab 81%,#50597b 81%); /* W3C */
-          }
-          .progress-bar.uploading {
-            background: -webkit-linear-gradient(left, #4fc4f6 43%,#50597b 43%); /* Chrome10+,Safari5.1+ */
-            background: -ms-linear-gradient(left, #4fc4f6 43%,#50597b 43%); /* IE10+ */
-            background: linear-gradient(to right, #4fc4f6 43%,#50597b 43%); /* W3C */
-          }
-      .calendar-day {
-        height: 320px;
-        background: #3468af;
-      }
-        .calendar-day .titular {
-          background: #1a4e95;
-        }
-          .calendar-day .arrow-btn:hover {
-            background: #16417E;
-          }
-        .calendar-day .the-day {
-          margin: 0;
-          text-align: center;
-          font-size: 146px;
-        }
-        .add-event.button {
-          background: #4fc4f6;
-        }
-          .add-event.button:hover {
-            background: #35aadc;
-          }
-      .calendar-month {
-        height: 380px;
-      }
-        .calendar-month .titular {
-          background: #3468af;
-        }
-          .calendar-month .arrow-btn:hover {
-            background: #1a4e95;
-          }
-        .calendar {
-          margin: 22px 15px;
-          text-align: center;
-        }
-          .calendar a {
-            font-size: 17px;
-          }
-          .calendar td, .calendar th {
-            width: 40px;
-            height: 38px;           
-          }
-          .calendar .days-week {
-            color: #4fc4f6;
-          }
-          .calendar .today {
-            display: block;
-            width: 34px;
-            line-height: 34px;
-            background: #e64c65;
-            border-radius: 100%;
-          }

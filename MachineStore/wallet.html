@@ -3,20 +3,32 @@
 <head>
   <meta charset="UTF-8">
   <title>Wallet App</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
-<link href='https://fonts.googleapis.com/css?family=Muli:400,300' rel='stylesheet' type='text/css'><link rel="stylesheet" href="assets\css\wallet.css">
-
+  <link href="assets/css/style.css" rel="stylesheet">
+<link rel="stylesheet" href="assets\css\wallet.css">
 </head>
-
-<header>
-    <div class="top">
-        <h1 class="top-h1">Wallet del Usuario<a class="volver" href="profile.html"> volver atrás</a></h1>
-    </div>
-</header>
 
 <body>
 <!-- partial:index.partial.html -->
+  <!-- ======= Header ======= -->
+  <header id="header-wallet" class="d-flex align-items-center">
+    <div class="container d-flex align-items-center justify-content-between">
+      <h1 class="logo"><a>MachineStore<span>.</span></a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt=""></a>-->
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto" href="index.html">Tienda</a></li>
+          <li><a class="nav-link scrollto" href="profile.html">Mi Cuenta</a></li>
+          <li><a class="nav-link scrollto" href="mercado.html">Mercado</a></li>
+          <li><a href="login.html" id="login-register-button">Iniciar Sesión</a> </li> 
+        </ul>
+        
+      </nav><!-- .navbar -->   
+          
+    </div>
+  </header><!-- End Header -->
+
 <div class='app' ng-app='wallet-app' ng-cloak='true'>
   <div class='app_inner'>
     <aside>

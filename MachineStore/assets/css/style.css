@@ -15,7 +15,7 @@ body {
 }
 
 a {
-  color: #106eea;
+  color: #c8cfda;
   text-decoration: none;
 }
 
@@ -798,7 +798,7 @@ section {
 .services .icon-box {
   text-align: center;
   border: 1px solid #000307;
-  padding: 80px 20px;
+  padding: 20px 20px;
   transition: all ease-in-out 0.3s;
   background: #b1dd12;
   box-shadow: 5px 5px 6px #b1dd12;
